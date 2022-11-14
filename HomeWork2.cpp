@@ -4,7 +4,7 @@
 
 //Задание 1
 
-
+/*
 
 enum class seasons {
     Январь = 1, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, Декабрь
@@ -54,7 +54,7 @@ int main()
 
 }
 
-
+*/
 
 //Задание 2
 
@@ -101,17 +101,17 @@ struct adress
 };
 
 void print_structure (adress& c){
-  std::cout << "Input country: ";
+  std::cout << "Введите страну: ";
   std::cin >> c.country;
-  std::cout << "Input city: ";
+  std::cout << "Введите город: ";
   std::cin >> c.city;
-  std::cout << "Input street: ";
+  std::cout << "Введите улицу: ";
   std::cin >> c.street;
-  std::cout << "Input house number: ";
+  std::cout << "Введите номер дома: ";
   std::cin >> c.house_number;
-  std::cout << "Input flat number: ";
+  std::cout << "Введите номер квартиры: ";
   std::cin >> c.flat;
-  std::cout << "Input index: ";
+  std::cout << "Введите индекс: ";
   std::cin >> c.index;
 }
 
@@ -122,7 +122,7 @@ int main()
   while (k != 0){
   adress c1;
   print_structure(c1);
-    std::cout << "Input '0' to quit the program ";
+    std::cout << "Введите '0' для выхода из программы/Любая кнопка для повторения: ";
     std::cin >> k;
 }
 }
